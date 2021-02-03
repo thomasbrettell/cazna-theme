@@ -1,0 +1,291 @@
+/*
+Theme Name: Cazna.com.au
+Author: Thomas Brettell
+Author URI: https://thomasbrettell.com
+Description: The custom WordPress theme for Cazna Pty Ltd.
+Version: 1.0
+*/
+
+/* .nav-item ul {
+  display: none;
+} */
+
+/* Generic */
+body {
+  font-family: "Roboto", sans-serif;
+  padding-top: 66px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  margin-bottom: 3rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+a {
+  color: grey !important;
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgb(37, 37, 37) !important;
+}
+
+.div-width-set {
+  max-width: 500px;
+  margin: auto;
+}
+
+.page-image-cover {
+  height: 65%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.page-image {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  /* filter: blur(2px); */
+  transform: scale(1.03);
+}
+
+.white-header {
+  color: white;
+}
+
+.main-wrapper {
+  max-width: 1048px;
+  margin: auto;
+  padding: 0 0.75rem;
+}
+
+.section-padding {
+  padding: 3rem 0;
+}
+
+.card-container {
+  padding: 0;
+}
+
+.drop-shadow {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+  padding: 0;
+  height: 66px;
+}
+
+.navbar-open {
+  height: auto;
+}
+
+.nav-link {
+  text-align: right;
+  padding-right: 0 !important;
+  font-weight: 600;
+}
+
+.navbar-brand {
+  cursor: pointer;
+  padding: 0;
+  height: 66px;
+  align-items: center;
+  display: flex;
+}
+
+#navbar-menu {
+  height: 66px;
+}
+
+.navbar-nav {
+  height: 100%;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-drop-menu-1 {
+  position: absolute;
+  top: 66px;
+  background-color: #f8f9fa;
+  list-style: none;
+  text-align: right;
+  padding: .5rem;
+  border: 1px solid #dfe0e0;
+  border-top: 0;
+}
+
+.nav-drop-menu-2 {
+  display: none;
+}
+
+/* Introduction */
+#introduction {
+  height: 65vh;
+  color: white;
+  padding-bottom: 3rem;
+}
+
+.intro-text {
+  position: relative;
+  align-self: flex-end;
+  background-color: #015a2d99;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.introduction-section-height {
+  height: 100%;
+  display: flex;
+}
+
+/* About */
+.about-text {
+  column-count: 2;
+}
+
+.manager-div {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.manager-btn {
+  background-color: #015a2d;
+  border: none;
+  color: white;
+  outline: none !important;
+}
+
+.manager-btn:hover {
+  background-color: #00381d;
+}
+
+.center-col-evenly {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+/* Contact */
+#contact {
+}
+
+.row {
+  /* align-items: center; */
+}
+
+.contact-col {
+  display: flex;
+  justify-content: center;
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 50%;
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Address */
+#address {
+  background-color: #f4f4f4;
+}
+
+.address-row {
+  align-items: center;
+}
+
+.address-col {
+  margin-top: 1rem;
+}
+
+.map-col {
+  padding: 0;
+}
+
+/* Products */
+#products {
+  background-image: -webkit-linear-gradient(135deg, #53a641, #015a2d);
+}
+
+.card {
+  border: none;
+}
+
+.card a {
+  color: #00381d !important;
+}
+
+.card-img-top {
+  height: 9rem;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+/* up-range */
+/* Introduction */
+.header-logo {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+#footer {
+  background-color: #fafafa;
+  text-align: center;
+  box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.1);
+  padding: 2rem 0 1rem;
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #666;
+  line-height: 1;
+}
+
+/* The Range */
+.card-logo-padding {
+  padding: 20px;
+  object-fit: fill;
+}
+
+@media only screen and (max-width: 767px) {
+  .about-text {
+    column-count: 1;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    height: auto;
+  }
+}
